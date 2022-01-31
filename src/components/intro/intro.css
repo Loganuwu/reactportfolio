@@ -1,0 +1,13 @@
+.i{
+display: flex;
+height: 100vh;
+background-color: pink;
+
+}
+
+.i-left{
+    flex: 1;
+}
+.i-right{
+    flex: 1;
+}
