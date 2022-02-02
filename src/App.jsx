@@ -1,8 +1,10 @@
-import Intro from "./components/intro/intro";
-
+import React from "react";
 
 const App = () => {
-  return <div><Intro/></div>;
+  return <div className="app">
+    top
+    sec
+  </div>;
 };
 
 export default App;
