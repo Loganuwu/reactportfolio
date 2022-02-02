@@ -4,10 +4,10 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  // webPortfolio,
+  // mobilePortfolio,
+  // designPortfolio,
+  // contentPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -18,22 +18,22 @@ export default function Portfolio() {
       id: "featured",
       title: "Featured",
     },
-    {
-      id: "web",
-      title: "Web App",
-    },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
-    {
-      id: "content",
-      title: "Content",
-    },
+    // {
+    //   id: "web",
+    //   title: "Web App",
+    // },
+    // {
+    //   id: "mobile",
+    //   title: "Mobile App",
+    // },
+    // {
+    //   id: "design",
+    //   title: "Design",
+    // },
+    // {
+    //   id: "content",
+    //   title: "Content",
+    // },
   ];
 
   useEffect(() => {
@@ -41,18 +41,18 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
-        break;
-      case "mobile":
-        setData(mobilePortfolio);
-        break;
-      case "design":
-        setData(designPortfolio);
-        break;
-      case "content":
-        setData(contentPortfolio);
-        break;
+      // case "web":
+      //   setData(webPortfolio);
+      //   break;
+      // case "mobile":
+      //   setData(mobilePortfolio);
+      //   break;
+      // case "design":
+      //   setData(designPortfolio);
+      //   break;
+      // case "content":
+      //   setData(contentPortfolio);
+      //   break;
       default:
         setData(featuredPortfolio);
     }
